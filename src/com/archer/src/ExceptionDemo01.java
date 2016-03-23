@@ -11,8 +11,16 @@ class Exc{
 
 public class ExceptionDemo01 {
     public static void main(String[] args) {
-     Exc e=null;
-//        e=new Exc();
-        System.out.println(e.i);
+        int a=10;
+        int b=0;
+        int temp = 0;
+
+        try {
+            temp = a/b;
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
+        }
+        System.out.println(temp);
+
     }
 }
