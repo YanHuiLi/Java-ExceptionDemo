@@ -5,7 +5,7 @@ package com.archer.src;
  */
 
 class MyException extends  Exception{
-    public MyException(String msg){
+    MyException(String msg){
         super(msg);
     }
 
