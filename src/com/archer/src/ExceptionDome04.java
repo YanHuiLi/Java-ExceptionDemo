@@ -17,6 +17,7 @@ public class ExceptionDome04 {
             throw new MyException("自定义异常");
         } catch (MyException e) {
             System.out.println(e);
+
         }
 
     }
